@@ -130,7 +130,18 @@ public class HelloApplication extends Application {
 
         @Override
         public boolean isIntersecting(Object other) {
-            return this.intersects(other.getLayoutBounds()); // TODO : Add intersection
+            double aX = this.getTranslateX();
+            double aY = this.getTranslateY();
+            double bX = other.getTranslateX();
+            double bY = other.getTranslateY();
+
+            double aWidth = this.getWidth();
+            double aHeight = this.getHeight();
+            double bWidth = other.getWidth();
+            double bHeight = other.getHeight();
+
+            return (Math.abs((aX + aWidth / 2) - (bX + bWidth / 2)) * 2 < (aWidth + bWidth)) &&
+                    (Math.abs((this.getTranslateY() + this.getHeight() / 2) - (other.getTranslateY() + other.getHeight() / 2)) * 2 < (this.getHeight() + other.getHeight()));
         }
     }
 
@@ -147,7 +158,7 @@ public class HelloApplication extends Application {
             intersectionLabel.setText(first.isIntersecting(second) ? "Two rectangles intersect? Yes" : "Two rectangles intersect? No");
         };
         second.objectPropertyChangedListener = o -> {
-            intersectionLabel.setText(first.isIntersecting(second) ? "Two rectangles intersect? Yes" : "Two rectangles intersect? No");
+            intersectionLabel.setText(second.isIntersecting(first) ? "Two rectangles intersect? Yes" : "Two rectangles intersect? No");
         };
 
         root.setTop(intersectionLabel);
