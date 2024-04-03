@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b821b9c5-417f-4f85-b2f4-b20d23520685" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Intersector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/IrregularObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/OnPropertyChanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/RegularObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +32,21 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eUtIq1enu3DIZtSt9EB7t0IMZZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711970914687</updated>
-      <workItem from="1711970915767" duration="4173000" />
+      <workItem from="1711970915767" duration="4805000" />
+      <workItem from="1712137156453" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -73,13 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711974367155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1711975104186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711975104186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
