@@ -41,7 +41,7 @@ public class RegularObject extends Object {
 
         this.rectangle.setRotate(angle);
 
-        this.rectangle.setTranslateX(x - width * 0.5);
+        this.rectangle.setTranslateX(x - width * 0.5);      //da se centar poklapa sa prosledjenim koordinatama
         this.rectangle.setTranslateY(y - height * 0.5);
 
         this.rectangle.setOnMousePressed(event -> {

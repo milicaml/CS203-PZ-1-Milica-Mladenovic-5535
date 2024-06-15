@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b821b9c5-417f-4f85-b2f4-b20d23520685" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Intersector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/IrregularObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/OnPropertyChanged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/RegularObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/RegularObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cs203pz1milicamladenovic5535/utill/RegularObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.App.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +70,11 @@
       <option name="presentableId" value="Default" />
       <updated>1711970914687</updated>
       <workItem from="1711970915767" duration="4805000" />
-      <workItem from="1712137156453" duration="2189000" />
+      <workItem from="1712137156453" duration="2428000" />
+      <workItem from="1712434570044" duration="429000" />
+      <workItem from="1713799457360" duration="11916000" />
+      <workItem from="1714762286411" duration="44000" />
+      <workItem from="1718450459665" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -95,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711975104186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1712139549229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712139549229</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

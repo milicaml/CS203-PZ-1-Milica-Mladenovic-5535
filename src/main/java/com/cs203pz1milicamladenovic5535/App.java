@@ -66,8 +66,8 @@ public class App extends Application {
                 }
             };
             
-            object1 = new IrregularObject(150, 0, vertices1, Color.RED);
-            object2 = new IrregularObject(0, 150, vertices2, Color.GREEN);
+            object1 = new IrregularObject(180, 0, vertices1, Color.RED);
+            object2 = new IrregularObject(0, 0, vertices2, Color.GREEN);
         }
 
         assert object1 != null;
@@ -113,11 +113,11 @@ public class App extends Application {
 
         object1.onPropertyChanged = event -> {
             final boolean isIntersecting = a.isIntersecting(b);
-            intersectionLabel.setText(isIntersecting ? "Intersecting" : "Not Intersecting");
+            intersectionLabel.setText(isIntersecting ? " Intersecting" : " Not Intersecting");
         };
         object2.onPropertyChanged = event -> {
             final boolean isIntersecting = b.isIntersecting(a);
-            intersectionLabel.setText(isIntersecting ? "Intersecting" : "Not Intersecting");
+            intersectionLabel.setText(isIntersecting ? " Intersecting" : " Not Intersecting");
         };
 
         root.setCenter(null);
@@ -153,7 +153,7 @@ public class App extends Application {
 
         switchObject(root);
 
-        root.setTop(new HBox(new CheckBox("Regular Objects") {{
+        root.setTop(new HBox(new CheckBox("Objects") {{
             setOnAction(event -> {
                 REGULAR_OBJECTS = !REGULAR_OBJECTS;
                 switchObject(root);

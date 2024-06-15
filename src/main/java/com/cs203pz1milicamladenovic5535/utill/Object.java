@@ -8,7 +8,9 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 
 public abstract class Object implements Intersector {
-    public static double deltaX, deltaY;
+    public static double deltaX, deltaY;        //pracenje pozicije misa prilikom pomeranja
+    protected final Color objectColor;
+    protected final TextField yPositionField, xPositionField;
 
     public Object(Color color) {
         super();
@@ -26,17 +28,15 @@ public abstract class Object implements Intersector {
 
     public abstract <T> T getShape();
 
-    protected final Color objectColor;
-    protected final TextField yPositionField, xPositionField;
 
     public Node getInfo() {
         return new VBox(
                 new HBox(
-                        new Label("Position X:"),
+                        new Label("Position X: "),
                         xPositionField
                 ),
                 new HBox(
-                        new Label("Position Y:"),
+                        new Label("Position Y: "),
                         yPositionField
                 )
         ) {{
